@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <link rel="stylesheet" href="/static/style_10.css">
+    <title>Fuel monitor</title>
+  </head>
+  <body>
+  <div id="wrap">
+    <header>
+      <h1>NANTEN2 Fuel Monitor</h1>
+    </header>
+    <div id="sidenavi">
+      <h2>Latest</h2>
+      {% autoescape False %}
+      {{ in_html }}
+      {% endautoescape %}
+    </div>
+    <div id="contents">
+      <h2>120h Fuel Monitor</h2>
+          <table>
+      <tr>
+	<td>
+	  <img src="static/img/24h_img/Oil_pressure.png" width="400" height="300"></td>
+	<td><img src="static/img/24h_img/Coolant_temp.png" width="400" height="300">
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  <img src="static/img/24h_img/ChgAltnV.png"  width="400" height="300">
+	</td>
+	<td>
+	  <img src="/static/img/24h_img/Battery_voltage.png"  width="400" height="300">
+	</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+	<td>
+	  <img src="/static/img/24h_img/Engine_speed.png"  width="400" height="300">
+	</td>
+        <td>
+	  <img src="/static/img/24h_img/Frequency.png"  width="400" height="300">
+	  </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>
+          <img src="/static/img/24h_img/L1-L3voltage.png"  width="400" height="300">
+        </td>
+        <td>
+          <img src="/static/img/24h_img/relative_voltage.png"  width="400" height="300">
+	  </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>
+          <img src="/static/img/24h_img/L1-L3ampare.png"  width="400" height="300">
+        </td>
+        <td>
+          <img src="/static/img/24h_img/Earth_current.png"  width="400" height="300">
+</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>
+          <img src="/static/img/24h_img/L1-L3wattage.png"  width="400" height="300">
+        </td>
+        <td>
+          <img src="/static/img/24h_img/Total_wattage.png"  width="400" height="300">
+</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>
+          <img src="/static/img/24h_img/running_generator.png"  width="400" height="300">
+	</td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</body>
+</html>
