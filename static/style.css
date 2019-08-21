@@ -1,0 +1,51 @@
+body {
+    /*background-image:url("/static/bg.jpg")*/;
+    background-image:url("/static/test_3.jpg");
+     }
+
+#wrap {
+/*width:960px;*/
+    width:1260px;
+margin:0px auto;
+}
+
+#sidenavi {
+float:left;
+/*width:198px;*/
+witdh:300px;
+height:498px;
+margin:10px 10px 10px 0px;
+}
+
+#contents {
+float:left;
+width:748px;
+height:498px;
+margin:10px 0px 10px 0px;
+}
+
+footer {
+clear:both;
+}
+
+
+.mystyle {
+    font-size: 12pt; 
+    font-family: Arial;
+    border-collapse: collapse; 
+    border: 1px solid silver;
+
+}
+
+.mystyle td, th {
+    padding: 5px;
+}
+
+.mystyle tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.mystyle tr:hover {
+    background: silver;
+    cursor: pointer;
+}
